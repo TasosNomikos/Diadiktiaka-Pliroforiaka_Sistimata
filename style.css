@@ -379,9 +379,7 @@ input[type="submit"]:hover {
     .about-us-section {
         flex: 0 0 calc(100% - 40px);
     }
-}
-@media (max-width: 780px) {
-    .navbar-toggle {
+	 .navbar-toggle {
       display: block;
     }
   
@@ -418,4 +416,6 @@ input[type="submit"]:hover {
       .navbar-toggle.active .burger:after {
         transform: translateY(0) rotate(-45deg);
       }
-  }
+}
+@media (max-width: 780px) {
+   }
