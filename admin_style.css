@@ -1,0 +1,68 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+.login-container {
+  width: 300px;
+  margin: 0 auto;
+  margin-top: 100px;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  text-align: center;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+input[type="submit"] {
+  background-color: #4CAF50;
+  color: #fff;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+.table-container {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 100px auto;
+  padding: 20px;
+  width: 80%;
+  max-width: 800px;
+}
+
+.messages-table {
+  width: 100%;
+  border-collapse: collapse;
+ }
+ 
+.messages-table th,
+.messages-table td {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.messages-table th {
+  background-color: #f2f2f2;
+}
+
+.messages-table tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
